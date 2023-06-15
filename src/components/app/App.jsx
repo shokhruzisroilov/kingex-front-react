@@ -4,19 +4,28 @@ import Layout from '../../layout/Layout'
 import { Navigate } from 'react-router-dom'
 
 import HomePage from '../../pages/HomePage'
+import "./App.scss"
 import Login from '../../login/Login'
+import Register from '../register/Register'
 import Error404Page from '../../error/Error404Page'
+import Partners from '../../pages/Partners'
+import SiteRules from '../../pages/SiteRules'
+import Info from '../../pages/Info'
+import Contact from '../../pages/Contact'
 
 function App() {
 	return (
 		<>
 			<Routes>
-				{/* <Route path='/' element={<Navigate to={'/sign-in'} />} /> */}
 				<Route path='/' element={<Layout />}>
 					<Route index element={<HomePage />} />
-					{/* <Route path='/nimadur' element={nimadur}/> */}
+					<Route path='/partners' element={<Partners />} />
+					<Route path='/rules' element={<SiteRules />} />
+					<Route path='/info' element={<Info />} />
+					<Route path='/contact' element={<Contact />} />
 				</Route>
-				{/* <Route path='/sign-in' element={<Login />} />	 */}
+				<Route path='/login' element={<Login />} />
+				<Route path='/register' element={<Register />} />
 				<Route path='*' element={<Error404Page />} />
 			</Routes>
 		</>

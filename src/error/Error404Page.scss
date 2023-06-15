@@ -1,0 +1,42 @@
+.error404{
+	width: 100%;
+	.error404__container{
+		max-width: 1200px;
+		margin: 0 auto;
+		background-color:#fff;
+		border-radius:8px;
+		min-height: 500px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		.lock{
+			font-size: 100px;
+			margin-bottom: 50px;
+		}
+		h3{
+			font-weight: 300;
+			font-size: 36px;
+			padding-bottom: 30px;
+			color: #1C1C1C;
+		}
+		p{
+			font-weight: 300;
+			font-size: 16px;
+			padding-bottom: 30px;
+			color: #1C1C1C;
+		}
+		.botton-home{
+			padding: 10px 20px;
+			background-color: #e5e5e5;
+			border-radius:8px;
+			font-family: 400;
+			font-size: 14px;
+			color: #5568d4;
+			text-decoration: none;
+		}
+		.botton-home:hover{
+			text-decoration: underline;
+		}
+	}
+}

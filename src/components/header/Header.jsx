@@ -35,27 +35,33 @@ function Header() {
 				</div>
 				<div className='navbar'>
 					<div className='site__logo'>
-						<h1>Kingex</h1>
+						<Link to='/'>
+							<h1>Kingex</h1>
+						</Link>
 					</div>
 					<nav>
 						<ul>
 							<li>
-								<Link>Partners</Link>
+								<Link to='/partners'>Partners</Link>
 							</li>
 							<li>
-								<Link>Exchange rules</Link>
+								<Link to='/rules'>Exchange rules</Link>
 							</li>
 							<li>
-								<Link>FAQ</Link>
+								<Link to='/info'>FAQ</Link>
 							</li>
 							<li>
-								<Link>Contacts</Link>
+								<Link to='/contact'>Contacts</Link>
 							</li>
 						</ul>
 					</nav>
 					<div className='nav__log'>
-						<Link className='login'>Login</Link>
-						<Link className='registr'>Registration</Link>
+						<Link to='/login' className='login'>
+							Login
+						</Link>
+						<Link className='registr' to='/register'>
+							Registration
+						</Link>
 					</div>
 				</div>
 			</div>
