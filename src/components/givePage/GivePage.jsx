@@ -9,7 +9,7 @@ function GivePage() {
 	return (
 		<div className='give__page'>
 			<span className='header'>
-				<h3>Give</h3>
+				<h3>Bering</h3>
 				<BsArrowLeftRight className='arrows' />
 			</span>
 			<div className='input'>
@@ -37,7 +37,7 @@ function GivePage() {
 				</span>
 			</div>
 			<span className='paragraf__spam'>
-				from <span className='paragraf1'>0.01</span> before{' '}
+				dan <span className='paragraf1'>0.01</span> gacha{' '}
 				<span className='paragraf2'>10.68 BTC</span>
 			</span>
 			<div className='search'>
@@ -45,7 +45,7 @@ function GivePage() {
 				<input
 					type='text'
 					className='search-input'
-					placeholder='search currency...'
+					placeholder='Valyutani qidiring...'
 				/>
 			</div>
 			<div className='money__all'>

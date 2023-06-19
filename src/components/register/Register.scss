@@ -1,14 +1,68 @@
-.register__window{
+.register__window {
 	width: 100%;
 	height: 100vh;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	.register__mode{
+	.register__mode {
 		width: 400px;
 		min-height: 600px;
-		background-color:#fff;
+		background-color: #fff;
 		padding: 24px;
 		border-radius: 4px;
+		box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+		.login__header {
+			display: flex;
+			justify-content: flex-end;
+			.close-icon {
+				font-size: 20px;
+				color: #4d4d4d;
+			}
+		}
+		h3 {
+			font-weight: 300;
+			font-size: 23px;
+			color: #4d4d4d;
+			margin-top: 20px;
+			margin-bottom: 35px;
+			text-align: center;
+			padding: 0 24px;
+		}
+		form {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			padding: 0 24px;
+			input {
+				width: 100%;
+				padding: 15px 10px;
+				border-radius: 8px;
+				border: 1px solid #4d4d4d;
+				color: #4d4d4d;
+				font-weight: 400;
+				font-size: 16px;
+				margin-bottom: 30px;
+			}
+			.password {
+				text-align: center;
+				font-weight: 400;
+				font-size: 13px;
+				color: #666666;
+				padding: 15px 0;
+			}
+			.password:hover {
+				color: red;
+				text-decoration: underline;
+			}
+			.btn-login {
+				padding: 15px 100px;
+				border-radius: 8px;
+				border: none;
+				background-color: rgba(37, 42, 72, 0.62);
+				font-weight: 400;
+				font-size: 15px;
+				color: #ffff;
+			}
+		}
 	}
-}		
+}

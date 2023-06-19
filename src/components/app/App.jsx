@@ -13,6 +13,8 @@ import SiteRules from '../../pages/SiteRules'
 import Info from '../../pages/Info'
 import Contact from '../../pages/Contact'
 
+import Referral from '../../pages/components/referral/Referral'
+
 function App() {
 	return (
 		<>

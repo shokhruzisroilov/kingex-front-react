@@ -2,6 +2,8 @@ import React from 'react'
 import './Partners.scss'	
 import { Link } from 'react-router-dom'
 
+import Referral from './components/referral/Referral'
+
 function Partners() {
 	return (
 		<div className='partners'>
@@ -11,7 +13,9 @@ function Partners() {
 					<nav>
 						<ul>
 							<li>
-								<Link className='nav-button'>Referral program</Link>
+								<Link className='nav-button'>
+									Referral program
+								</Link>
 							</li>
 							<li>
 								<Link className='nav-button'>Cashback</Link>
@@ -23,7 +27,7 @@ function Partners() {
 					</nav>
 				</div>
 				<div className='main__content'>
-					<h1>Main</h1>
+					<Referral />
 				</div>
 			</div>
 		</div>

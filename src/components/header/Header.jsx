@@ -14,15 +14,15 @@ function Header() {
 				<div className='contact__info'>
 					<span>
 						<CiTimer className='header__icons' />
-						<p>Exchange 24/7</p>
+						<p>Almashtirish 24/7</p>
 					</span>
 					<span>
 						<TbBrandTelegram className='header__icons' />
-						<p className='pragraf__hover'>Telegram (General questions)</p>
+						<p className='pragraf__hover'>Telegram (Umumiy savollar)</p>
 					</span>
 					<span>
 						<TbBrandTelegram className='header__icons' />
-						<p className='pragraf__hover'>Telegram (Cash exchange)</p>
+						<p className='pragraf__hover'>Telegram (Naqd pul almashinuvi)</p>
 					</span>
 					<span>
 						<TfiEmail className='header__icons' />
@@ -42,25 +42,25 @@ function Header() {
 					<nav>
 						<ul>
 							<li>
-								<Link to='/partners'>Partners</Link>
+								<Link to='/partners'>Hamkorlar</Link>
 							</li>
 							<li>
-								<Link to='/rules'>Exchange rules</Link>
+								<Link to='/rules'>Birja qoidalari</Link>
 							</li>
 							<li>
-								<Link to='/info'>FAQ</Link>
+								<Link to='/info'>TSS</Link>
 							</li>
 							<li>
-								<Link to='/contact'>Contacts</Link>
+								<Link to='/contact'>Kontaktlar</Link>
 							</li>
 						</ul>
 					</nav>
 					<div className='nav__log'>
 						<Link to='/login' className='login'>
-							Login
+							Kirish
 						</Link>
 						<Link className='registr' to='/register'>
-							Registration
+							Ro'yxatdan o'tish
 						</Link>
 					</div>
 				</div>

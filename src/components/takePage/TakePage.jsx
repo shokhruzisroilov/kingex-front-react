@@ -8,7 +8,7 @@ function TakePage() {
 	return (
 		<div className='take__page'>
 			<span className='header'>
-				<h3>Take</h3>
+				<h3>Oling</h3>
 			</span>
 			<div className='input'>
 				<input type='text' placeholder='0' />
@@ -34,13 +34,13 @@ function TakePage() {
 					</svg>
 				</span>
 			</div>
-			<span className='paragraf__spam'>Reserve: 79318014.4939 UAH</span>
+			<span className='paragraf__spam'>Zaxira: 79318014.4939 UAH</span>
 			<div className='search'>
 				<BiSearch className='search-icon' />
 				<input
 					type='text'
 					className='search-input'
-					placeholder='search currency...'
+					placeholder='Valyutani qidiring...'
 				/>
 			</div>
 			<div className='money__all'>

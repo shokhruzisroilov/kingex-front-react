@@ -6,7 +6,29 @@
 		background-color:#fff;
 		border-radius:8px;
 		min-height: 300px;
-		display: flex;
-		justify-content: space-between;
+		padding: 50px;
+		h1{
+			font-weight: 300;
+			font-size: 30px;
+			color: #2d2d2d;
+			padding-bottom: 30px;
+		}
+		h2{
+			font-size: 24px;
+			font-weight: 400;
+			color: #4d576c;
+			margin: 0;
+		}
+		p{
+			margin-bottom: 2.8rem;
+			font-size: 15px;
+			color:#1c1c1c;
+		}
+		h3{
+			font-weight: 400;
+			margin-bottom: 20px;
+			font-size: 24px;
+			color:#1c1c1c;
+		}
 	}
 }

@@ -9,10 +9,10 @@ function Footer() {
 	return (
 		<footer>
 			<div className='footer__container'>
-				<h2>Our partners</h2>
+				<h2>Bizning hamkorlarimiz</h2>
 				<div className='partners'>
 					<img src={partners1} alt='partners' />
-					<img src={partners2} alt='partners' className='partners2'/>
+					<img src={partners2} alt='partners' className='partners2' />
 					<img src={partners3} alt='partners' />
 				</div>
 			</div>

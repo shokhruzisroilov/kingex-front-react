@@ -5,9 +5,9 @@ function Language() {
 	return (
 		<div className='language'>
 			<div className='lang'>
-				<span>EN</span>
+				<span className='frist'>EN</span>
 				<span className='middle'>RU</span>
-				<span>UZ</span>
+				<span className='last'>UZ</span>
 			</div>
 		</div>
 	)
