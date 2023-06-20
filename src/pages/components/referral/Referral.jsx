@@ -60,7 +60,7 @@ function Referral() {
 			<div className='sestim__referral'>
 				<div className='sestem'>
 					<span className='ses sestem1'>5%</span>
-					<p>Posle registratsii na sayte</p>
+					<p>saytda ro'yxatdan o'tgandan keyin</p>
 				</div>
 				<div className='sestem'>
 					<span className='ses sestem2'>10%</span>

@@ -8,7 +8,7 @@ import { BiSearch } from 'react-icons/bi'
 function GivePage() {
 	return (
 		<div className='give__page'>
-			<span className='header'>
+			<span className='header_page'>
 				<h3>Bering</h3>
 				<BsArrowLeftRight className='arrows' />
 			</span>
@@ -49,29 +49,6 @@ function GivePage() {
 				/>
 			</div>
 			<div className='money__all'>
-				<Money />
-				<Money />
-				<Money />
-				<Money />
-				<Money />
-				<Money />
-				<Money />
-				<Money />
-				<Money />
-				<Money />
-				<Money />
-				<Money />
-				<Money />
-				<Money />
-				<Money />
-				<Money />
-				<Money />
-				<Money />
-				<Money />
-				<Money />
-				<Money />
-				<Money />
-				<Money />
 				<Money />
 			</div>
 		</div>

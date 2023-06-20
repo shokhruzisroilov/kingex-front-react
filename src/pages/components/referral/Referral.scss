@@ -97,3 +97,13 @@
 		margin-top: 100px;
 	}
 }
+
+@media screen and (max-width:678px) {
+	.referral{
+		.how__work{
+			display: flex;
+			flex-direction: column;
+			row-gap: 20px;
+		}
+	}
+}

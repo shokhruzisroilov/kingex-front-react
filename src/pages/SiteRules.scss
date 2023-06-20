@@ -32,3 +32,19 @@
 		}
 	}
 }
+
+@media screen and (max-width:1300px) {
+	.site-rules{
+		.site-rules__container{
+			max-width: 800px;
+			margin-top: 20px;
+		}
+	}
+}
+@media screen and (max-width:678px) {
+	.site-rules{
+		.site-rules__container{
+			padding: 20px;
+		}
+	}
+}

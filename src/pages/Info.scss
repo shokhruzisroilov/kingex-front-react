@@ -66,3 +66,36 @@
 		}
 	}
 }
+@media screen and (max-width:1300px) {
+	.info{
+		.info__container{
+			max-width: 800px;
+			margin-top: 20px;
+			display: flex;
+			flex-direction: column;
+			row-gap: 30px;
+		}
+	}
+}
+@media screen and (max-width:678px) {
+	.info{
+		.info__container{
+			padding: 20px;
+			.left__info{
+				width: 100%;
+			}
+			.right__info{
+				.info__modul{
+					span{
+						p{
+							font-size: 12px;	
+						}
+					}
+					.arrow-icon{
+						font-size: 20px;
+					}
+				}
+			}
+		}
+	}
+}

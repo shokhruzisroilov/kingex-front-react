@@ -7,7 +7,7 @@ import { BiSearch } from 'react-icons/bi'
 function TakePage() {
 	return (
 		<div className='take__page'>
-			<span className='header'>
+			<span className='header_page'>
 				<h3>Oling</h3>
 			</span>
 			<div className='input'>
@@ -44,29 +44,6 @@ function TakePage() {
 				/>
 			</div>
 			<div className='money__all'>
-				<Money />
-				<Money />
-				<Money />
-				<Money />
-				<Money />
-				<Money />
-				<Money />
-				<Money />
-				<Money />
-				<Money />
-				<Money />
-				<Money />
-				<Money />
-				<Money />
-				<Money />
-				<Money />
-				<Money />
-				<Money />
-				<Money />
-				<Money />
-				<Money />
-				<Money />
-				<Money />
 				<Money />
 			</div>
 		</div>

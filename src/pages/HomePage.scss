@@ -7,6 +7,18 @@
 		border-radius:8px;
 		min-height: 300px;
 		display: flex;
-		justify-content: space-between;
+		justify-content: center;
+	}
+}
+
+@media screen and (max-width:1300px) {
+	.home{
+		.home__container{
+			max-width: 800px;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;	
+			margin-top: 20px;
+		}
 	}
 }

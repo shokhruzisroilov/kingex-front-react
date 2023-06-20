@@ -1,9 +1,9 @@
 import React from 'react'
 import './Error404Page.scss'
 
-import Header from '../components/header/Header'
-import Footer from '../components/footer/Footer'
-import Outline from '../components/outline/Outline'
+import Header from '../../components/header/Header'
+import Footer from '../../components/footer/Footer'
+import Outline from '../../components/outline/Outline'
 import { Link } from 'react-router-dom'
 
 import { FcLock } from 'react-icons/fc'

@@ -72,3 +72,24 @@
 		}
 	}
 }
+@media screen and (max-width:1300px) {
+	.contact{
+		.contact__container{
+			max-width: 800px;
+			margin-top: 20px;
+		}
+	}
+}
+@media screen and (max-width:678px) {
+	.contact{
+		.contact__container{
+			padding: 20px;
+			p{
+				width: 100%;
+			}
+			.support{
+				width: 100%;
+			}
+		}
+	}
+}

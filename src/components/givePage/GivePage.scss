@@ -2,7 +2,7 @@
 	width: 400px;
 	height: 100%;
 	padding: 20px;
-	.header {
+	.header_page {
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
@@ -110,5 +110,11 @@
 		.money:hover{
 			background-color: #f3f4f8;
 		}
+	}
+}
+
+@media screen and (max-width:678px) {
+	.give__page{
+		width: 100%;
 	}
 }

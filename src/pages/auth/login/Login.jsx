@@ -1,6 +1,6 @@
 import React from 'react'
 import './Login.scss'
-import Outline from '../components/outline/Outline'
+import Outline from '../../../components/outline/Outline'
 import {GrClose} from 'react-icons/gr'
 import { Link } from 'react-router-dom'
 

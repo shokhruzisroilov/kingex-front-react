@@ -1,6 +1,6 @@
 import React from 'react'
 import './Register.scss'
-import Outline from '../outline/Outline'
+import Outline from '../../../components/outline/Outline'
 import { GrClose } from 'react-icons/gr'
 import { Link } from 'react-router-dom'
 
@@ -18,7 +18,7 @@ function Register() {
 					<input type='password' placeholder='Parolni kiriting' />
 					<input type='password' placeholder='Parolni qayta kiriting' />
 					<span className='password'>Parolni yaratish</span> <br />
-					<button className='btn-login'>Kirish</button>
+					<button className='btn-login'>Ro'yhatdan o'tish</button>
 				</form>
 			</div>
 			<Outline />
