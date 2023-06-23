@@ -5,7 +5,7 @@ import Money from '../money/Money'
 import { BsArrowLeftRight } from 'react-icons/bs'
 import { BiSearch } from 'react-icons/bi'
 
-function GivePage() {
+function GivePage({currencyData}) {
 	return (
 		<div className='give__page'>
 			<span className='header_page'>
@@ -49,7 +49,19 @@ function GivePage() {
 				/>
 			</div>
 			<div className='money__all'>
-				<Money />
+				{
+					currencyData?.map((item) => {
+						return (
+							<Money
+								key={item.id}
+								id={item.id}
+								name={item.name}
+								unit={item.unit}
+								created_at={item.created_at}
+							/>
+						)
+					})
+				}
 			</div>
 		</div>
 	)

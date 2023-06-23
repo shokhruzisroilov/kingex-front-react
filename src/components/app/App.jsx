@@ -17,6 +17,9 @@ import PartnersLayout from '../../pages/PartnersLayout'
 import Referral from '../../pages/components/referral/Referral'
 import Cashback from '../../pages/components/cashback/Cashback'
 import Monitoring from '../../pages/components/monitoring/Monitoring'
+import GeneralInfo from '../../pages/components/generalInfo/GeneralInfo'
+import CashInfo from '../../pages/components/cashInfo/CashInfo'
+import CheckInfo from '../../pages/components/checkInfo/CheckInfo'
 
 function App() {
 	return (
@@ -31,7 +34,12 @@ function App() {
 						<Route path='/partners/monitoring' element={<Monitoring />} />
 					</Route>
 					<Route path='/rules' element={<SiteRules />} />
-					<Route path='/info' element={<Info />} />
+					<Route path='/info' element={<Info />}>
+						<Route path='/info' element={<GeneralInfo />} />
+						<Route path='/info/general' element={<GeneralInfo />} />
+						<Route path='/info/cash' element={<CashInfo />} />
+						<Route path='/info/check' element={<CheckInfo />} />
+					</Route>
 					<Route path='/contact' element={<Contact />} />
 				</Route>
 				<Route path='/admin' element={<Admin />} />

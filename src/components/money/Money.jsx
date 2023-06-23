@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Money() {
+function Money({id,name,unit, created_at}) {
 	return (
 		<div className='money'>
 			<svg
@@ -21,7 +21,7 @@ function Money() {
 					fill='#fff'
 				></path>
 			</svg>
-			<h4>Bitcoin</h4>
+			<h4>{name}</h4>
 		</div>
 	)
 }
