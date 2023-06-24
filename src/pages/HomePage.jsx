@@ -31,7 +31,7 @@ function HomePage() {
 	return (
 		<div className='home'>
 			<div className='home__container'>
-				<GivePage currencyData={currencyData}/>
+				<GivePage />
 				<TakePage />
 				<DataEntry />
 			</div>

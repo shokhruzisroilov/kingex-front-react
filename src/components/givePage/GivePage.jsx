@@ -5,11 +5,11 @@ import Money from '../money/Money'
 import { BsArrowLeftRight } from 'react-icons/bs'
 import { BiSearch } from 'react-icons/bi'
 
-function GivePage({currencyData}) {
+function GivePage() {
 	return (
 		<div className='give__page'>
 			<span className='header_page'>
-				<h3>Bering</h3>
+				<h3>Berish</h3>
 				<BsArrowLeftRight className='arrows' />
 			</span>
 			<div className='input'>
@@ -45,23 +45,11 @@ function GivePage({currencyData}) {
 				<input
 					type='text'
 					className='search-input'
-					placeholder='Valyutani qidiring...'
+					placeholder='Valuta qidiruvi...'
 				/>
 			</div>
 			<div className='money__all'>
-				{
-					currencyData?.map((item) => {
-						return (
-							<Money
-								key={item.id}
-								id={item.id}
-								name={item.name}
-								unit={item.unit}
-								created_at={item.created_at}
-							/>
-						)
-					})
-				}
+				<Money />
 			</div>
 		</div>
 	)

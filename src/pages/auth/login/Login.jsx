@@ -13,21 +13,19 @@ function Login() {
 	const navigate = useNavigate()
 
 	const onSubmit = async e => {
+		let item  = {email, password}
+		console.log(item)
 		e.preventDefault()
 		let req = await fetch('https://exchanger.adew.uz/api/login', {
 			method: 'POST',
+			body: JSON.stringify(item),
 			headers: {
 				'Content-Type': 'application/json',
-				Accept: 'application/json',
+				'Accept': 'application/json',
 			},
-
-			body: JSON.stringify({
-				email: email,
-				password: password,
-			}),
 		})
 		req = await req.json()
-
+		
 		if (req.token) {
 			navigate('/')
 			localStorage.setItem('accessToken', req.token)
@@ -46,16 +44,17 @@ function Login() {
 				<form onSubmit={onSubmit}>
 					<input
 						type='email'
-						placeholder='E-mail manzilingizni kiriting'
-						onChange={({ target }) => setEmail(target.value)}
+						placeholder='Emailni kiriting'
+						onChange={e => setEmail(e.target.value)}
 					/>
-					<input type='password' placeholder='Parolni kiriting' />
+					<input
+						type='password'
+						placeholder='Parol kiriting'
+						onChange={e => setPassword(e.target.value)}
+					/>
 					<p className='error'>{error}</p>
-					<span className='password'>Parolni tiklash</span>{' '}
-					<br onChange={({ target }) => setPassword(target.value)} />
-					<button className='btn-login' type='submit'>
-						Kirish
-					</button>
+					<span className='password'>Parolni tiklash</span> <br />
+					<button className='btn-login'>Kirish</button>
 					<span className='or-name'>
 						<div />
 						<p>YOKI</p>

@@ -11,7 +11,7 @@ function DataEntry() {
 			<div className='rate'>
 				<span className='rate-text'>
 					<h4>Ayirboshlash kursi: 1 ETH = 62946.2923 UAH</h4>
-					<p>Buyurtma tuzilgandan keyin stavka belgilanadi</p>
+					<p>Narx ilova yaratilgandan keyin belgilanadi</p>
 				</span>
 				<div className='timer-wrapper'>
 					<p>10</p>
@@ -73,8 +73,9 @@ function DataEntry() {
 			</div>
 			<div className='data__text'>
 				<h4>
-					Kartalar bilan operatsiyalar yarim avtomatik tarzda amalga oshiriladi
-					va 20-tarmoq tasdiqlovini olgandan keyin 60 daqiqagacha davom etadi.
+					Kartalar bilan operatsiyalar operatorning ishi davomida yarim
+					avtomatik rejimda amalga oshiriladi va 20-tarmoqni tasdiqlashni
+					olgandan keyin 60 daqiqagacha davom etadi.
 				</h4>
 				<p>
 					Naqd pul yechish operatsiyalari dushanbadan shanbagacha soat 10:00 dan
@@ -82,28 +83,28 @@ function DataEntry() {
 				</p>
 				<p>
 					Ushbu yo'nalishda sizning mablag'laringizni AML-Check amalga
-					oshiriladi. Mablag'lar noqonuniy manbalar bilan bog'langan taqdirda,
+					oshiriladi. Pul mablag'lari noqonuniy manbalarga ulangan taqdirda,
 					ayirboshlash to'xtatiladi.
 				</p>
 			</div>
 			<form>
 				<span className='inputs'>
-					<input type='email' placeholder='Enter your e-mail' />
+					<input type='email' placeholder='Elektron pochtani kiriting' />
 					<MdEmail className='icons' />
 				</span>
 				<span className='inputs'>
-					<input type='text' placeholder='Card number' />
+					<input type='text' placeholder='Kartani kiriting' />
 					<AiFillCreditCard className='icons' />
 				</span>
 				<span className='checkbox checkbox1'>
 					<input type='checkbox' />
-					<p>Men xizmat ko'rsatish shartlariga roziman</p>
+					<p>Men xizmat shartlari va shartlariga roziman</p>
 				</span>
 				<span className='checkbox'>
 					<input type='checkbox' />
 					<p>Men AML/CTF va KYC shartlariga roziman</p>
 				</span>
-				<button type='button'>Almashtirishni davom eting</button>
+				<button type='button'>To'lovga o'ting</button>
 			</form>
 		</div>
 	)

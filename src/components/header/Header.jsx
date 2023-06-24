@@ -18,11 +18,11 @@ function Header() {
 				<div className='contact__info'>
 					<span>
 						<CiTimer className='header__icons' />
-						<p>Almashtirish 24/7</p>
+						<p>24/7 almashinuvlar</p>
 					</span>
 					<span>
 						<TbBrandTelegram className='header__icons' />
-						<p className='pragraf__hover'>Telegram (Umumiy savollar)</p>
+						<p className='pragraf__hover'>Telegram (umumiy savollar)</p>
 					</span>
 					<span>
 						<TbBrandTelegram className='header__icons' />
@@ -46,24 +46,16 @@ function Header() {
 					<nav>
 						<ul>
 							<li>
-								<Link to='/partners'>
-									Hamkorlar
-								</Link>
+								<Link to='/partners'>Hamkorlar</Link>
 							</li>
 							<li>
-								<Link to='/rules'>
-									Birja qoidalari
-								</Link>
+								<Link to='/rules'>Birja qoidalari</Link>
 							</li>
 							<li>
-								<Link to='/info'>
-									TSS
-								</Link>
+								<Link to='/info'>Savol va Javob</Link>
 							</li>
 							<li>
-								<Link to='/contact'>
-									Kontaktlar
-								</Link>
+								<Link to='/contact'>Kontaktlar</Link>
 							</li>
 						</ul>
 					</nav>

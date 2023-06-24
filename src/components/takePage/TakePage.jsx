@@ -8,7 +8,7 @@ function TakePage() {
 	return (
 		<div className='take__page'>
 			<span className='header_page'>
-				<h3>Oling</h3>
+				<h3>Siz olasiz</h3>
 			</span>
 			<div className='input'>
 				<input type='text' placeholder='0' />
@@ -40,7 +40,7 @@ function TakePage() {
 				<input
 					type='text'
 					className='search-input'
-					placeholder='Valyutani qidiring...'
+					placeholder='Valuta qidiruvi...'
 				/>
 			</div>
 			<div className='money__all'>

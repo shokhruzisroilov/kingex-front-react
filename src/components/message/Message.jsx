@@ -27,20 +27,14 @@ function Message() {
 		<div className='message'>
 			{!message ? (
 				<div className='message__box'>
-					<h2>Savolingizni yozib qoldiring</h2>
+					<h2>Напишите свой вопрос</h2>
 					<ul>
-						{
-							tasks.map((task) => {
-								return (
-									<li>
-										{task.input}
-									</li>
-								)
-							})
-						}
+						{tasks.map(task => {
+							return <li>{task.input}</li>
+						})}
 					</ul>
 					<span>
-						<input type='text' placeholder='Xabar' onChange={onInput} />
+						<input type='text' placeholder='Сообщение' onChange={onInput} />
 						<div className='mess__icon' onClick={addTask}>
 							<BiSend className='input-icon' />
 						</div>

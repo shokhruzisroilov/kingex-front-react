@@ -1,7 +1,6 @@
 import './App.scss'
 import { Routes, Route } from 'react-router-dom'
 import Layout from '../../layout/Layout'
-import { Navigate } from 'react-router-dom'
 
 import HomePage from '../../pages/HomePage'
 import './App.scss'
@@ -20,8 +19,10 @@ import Monitoring from '../../pages/components/monitoring/Monitoring'
 import GeneralInfo from '../../pages/components/generalInfo/GeneralInfo'
 import CashInfo from '../../pages/components/cashInfo/CashInfo'
 import CheckInfo from '../../pages/components/checkInfo/CheckInfo'
+// import { useState } from 'react'
 
 function App() {
+	// const [token, setToken] = useState(window.localStorage.getItem('token'))
 	return (
 		<>
 			<Routes>
