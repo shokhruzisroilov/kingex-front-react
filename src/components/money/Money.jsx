@@ -1,6 +1,4 @@
-import React from 'react'
-
-function Money({id, name, unit, photo}) {
+function Money({ id, name, unit, photo }) {
 	return (
 		<div className='money'>
 			<svg

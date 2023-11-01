@@ -50,6 +50,8 @@ function GivePage() {
 			</div>
 			<div className='money__all'>
 				<Money />
+				<Money />
+				<Money />
 			</div>
 		</div>
 	)

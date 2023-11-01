@@ -45,6 +45,8 @@ function TakePage() {
 			</div>
 			<div className='money__all'>
 				<Money />
+				<Money />
+				<Money />
 			</div>
 		</div>
 	)
